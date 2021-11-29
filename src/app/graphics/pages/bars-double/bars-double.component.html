@@ -1,0 +1,18 @@
+<h1>Double Graphics</h1>
+<hr />
+
+<div class="row">
+  <div class="col-md-6">
+    <app-graphic-bar
+      [horizontal]="true"
+      [barChartData]="productData"
+      [barChartLabels]="supplierLabels"
+    ></app-graphic-bar>
+  </div>
+  <div class="col-md-6">
+    <app-graphic-bar
+      [barChartData]="supplierData"
+      [barChartLabels]="supplierLabels"
+    ></app-graphic-bar>
+  </div>
+</div>
